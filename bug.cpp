@@ -1,0 +1,1 @@
+std::vector<bool> is not the same as a vector of bits. It uses a bit of optimization to store the vector of booleans in a compact way. However, this optimization means that accessing the elements is slower, and many standard algorithms are not optimized for this type.
